@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/mystyle.css">
+</head>
+<body>
+    <!-- 导航 -->
+    <nav th:replace="_fragments :: menu(1)" class="ui inverted blue attached segment my-padded-tb-mini my-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">Blog</h2>
+                <a href="./index.html" class="active m-item item my-mobile-hidden"><i class="home icon"></i>首页</a>
+                <a href="./types.html" class=" m-item item my-mobile-hidden"><i class="idea icon"></i>分类</a>
+                <a href="./tags.html" class=" m-item item my-mobile-hidden"><i class="tags icon"></i>标签</a>
+                <a href="./archives.html" class=" m-item item my-mobile-hidden"><i class="clone icon"></i>归档</a>
+                <a href="./about.html" class=" m-item item my-mobile-hidden"><i class="paper plane icon"></i>关于我</a>
+                <div class="m-item right item my-mobile-hidden">
+                    <div class="ui icon input">
+                        <input type="text" placeholder="Search...">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui blue menu toggle icon black button my-right-top my-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!-- 中间内容 -->
+    <div class="my-container my-padded-tb-big animated fadeIn">
+        <div class="ui container">
+            <div class="ui stackable grid">
+                <!-- 左边博客列表 -->
+                <div class="eleven wide column">
+                    <!-- top -->
+                    <div class="ui top attached segment">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <h3 class="ui teal header">博客</h3>
+                            </div>
+                            <div class="right aligned column">
+                                共 <h3 class="ui orange header my-inline-block" th:text="${page.totalElements}">16</h3> 篇博客
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content -->
+                    <div class="ui attached segment my-padded-lr-reponsive">
+                        <div class="ui padded vertical segment my-padded-tb-large" th:each="blog: ${page.content}">
+                            <div class="ui middle aligned mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header"><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="my-text-black" th:text="${blog.title}">Java 13新特性抢先看，9月GA</a></h3>
+                                    <p class="my-text" th:text="|${blog.description}......|">由于 Java 现在采取“半年发布一次新版本”的模式，所以 Java 12 的下一个版本 Java 13/JDK 13 预计将于 9 月发布...</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/id/1000/100/100" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header" th:text="${blog.user.nickname}">w_初一丶</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar alternate outline icon"></i><span th:text="${#dates.format(blog.updateTime, 'yyyy-MM-dd')}">2019年06月18日</span>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> <span th:text="${blog.views}">26</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target="_blank" class="ui teal basic label my-padding-tiny" th:text="${blog.type.name}">Java</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+                                        <img src="https://picsum.photos/id/1000/700/400" th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image"
+                                        style="width: 180px; height: 100px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/*-->
+                        <div class="ui padded vertical segment my-padded-tb-large">
+                            <div class="ui mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">Java 13新特性抢先看，9月GA</h3>
+                                    <p class="my-text">由于 Java 现在采取“半年发布一次新版本”的模式，所以 Java 12 的下一个版本 Java 13/JDK 13 预计将于 9 月发布...</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/id/1000/100/100" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header">w_初一丶</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar alternate outline icon"></i> 2019年06月18日
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> 26
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target="_blank" class="ui teal basic label my-padding-tiny">Java</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://picsum.photos/id/1000/700/400" alt="" class="ui rounded image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui padded vertical segment my-padded-tb-large">
+                            <div class="ui mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">Java 13新特性抢先看，9月GA</h3>
+                                    <p class="my-text">由于 Java 现在采取“半年发布一次新版本”的模式，所以 Java 12 的下一个版本 Java 13/JDK 13 预计将于 9 月发布...</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/id/1000/100/100" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header">w_初一丶</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar alternate outline icon"></i> 2019年06月18日
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> 26
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target="_blank" class="ui teal basic label my-padding-tiny">Java</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://picsum.photos/id/1000/700/400" alt="" class="ui rounded image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui padded vertical segment my-padded-tb-large">
+                            <div class="ui mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">Java 13新特性抢先看，9月GA</h3>
+                                    <p class="my-text">由于 Java 现在采取“半年发布一次新版本”的模式，所以 Java 12 的下一个版本 Java 13/JDK 13 预计将于 9 月发布...</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/id/1000/100/100" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header">w_初一丶</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar alternate outline icon"></i> 2019年06月18日
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> 26
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target="_blank" class="ui teal basic label my-padding-tiny">Java</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://picsum.photos/id/1000/700/400" alt="" class="ui rounded image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui padded vertical segment my-padded-tb-large">
+                            <div class="ui mobile reversed stackable grid">
+                                <div class="eleven wide column">
+                                    <h3 class="ui header">Java 13新特性抢先看，9月GA</h3>
+                                    <p class="my-text">由于 Java 现在采取“半年发布一次新版本”的模式，所以 Java 12 的下一个版本 Java 13/JDK 13 预计将于 9 月发布...</p>
+                                    <div class="ui grid">
+                                        <div class="eleven wide column">
+                                            <div class="ui mini horizontal link list">
+                                                <div class="item">
+                                                    <img src="https://picsum.photos/id/1000/100/100" alt="" class="ui avatar image">
+                                                    <div class="content">
+                                                        <a href="#" class="header">w_初一丶</a>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <i class="calendar alternate outline icon"></i> 2019年06月18日
+                                                </div>
+                                                <div class="item">
+                                                    <i class="eye icon"></i> 26
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right aligned five wide column">
+                                            <a href="#" target="_blank" class="ui teal basic label my-padding-tiny">Java</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="five wide column">
+                                    <a href="#" target="_blank">
+                                        <img src="https://picsum.photos/id/1000/700/400" alt="" class="ui rounded image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--*/-->
+                    </div>
+                    <!-- bottom -->
+                    <div class="ui bottom attached segment">
+                        <div class="ui two column grid" th:if="${page.totalPages > 1}">
+                            <div class="column">
+                                <a th:href="@{/(page=${page.number} - 1)}" th:unless="${page.first}" class="ui mini teal basic button">
+                                    上一页
+                                </a>
+                            </div>
+                            <div class="right aligned column">
+                                <a th:href="@{/(page=${page.number} - 1)}" th:unless="${page.last}" class="ui mini teal basic button" >
+                                    上一页
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右边的top -->
+                <div class="five wide column">
+                    <!-- 分类 -->
+                    <div class="ui segments">
+                        <div class="ui secondary segment">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <i class="idea icon"></i>分类
+                                </div>
+                                <div class="right aligned column">
+                                    <a href="#" th:href="@{/types/-1}" target="_blank">more <i class="angle double right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui teal segment">
+                            <div class="ui fluid vertical menu">
+                                <a href="#" th:href="@{/types/{id}(id=${type.id})}" class="item" th:each="type: ${types}">
+                                    <span th:text="${type.name}">学习日志</span>
+                                    <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">13</div>
+                                </a>
+                                <!--/*-->
+                                <a href="#" class="item">
+                                    学习日志
+                                    <div class="ui teal basic left pointing label">13</div>
+                                </a>
+                                <a href="#" class="item">
+                                    学习日志
+                                    <div class="ui teal basic left pointing label">13</div>
+                                </a>
+                                <a href="#" class="item">
+                                    学习日志
+                                    <div class="ui teal basic left pointing label">13</div>
+                                </a>
+                                <a href="#" class="item">
+                                    学习日志
+                                    <div class="ui teal basic left pointing label">13</div>
+                                </a>
+                                <a href="#" class="item">
+                                    学习日志
+                                    <div class="ui teal basic left pointing label">13</div>
+                                </a>
+                                <!--*/-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 标签 -->
+                    <div class="ui segments">
+                        <div class="ui secondary segment">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <i class="tags icon"></i>标签
+                                </div>
+                                <div class="right aligned column">
+                                    <a href="#" th:href="@{/tags/-1}" target="_blank">more <i class="angle double right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui teal segment">
+                            <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" target="_blank" class="ui teal basic left pointing label my-margin-tiny"
+                               th:each="tag: ${tags}">
+                                <span th:text="${tag.name}">方法论</span>
+                                <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
+                            </a>
+                            <!--/*-->
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label my-margin-tiny">
+                                方法论
+                                <div class="detail">23</div>
+                            </a>
+                            <!--*/-->
+                        </div>
+                    </div>
+                    <!-- 最新推荐 -->
+                    <div class="ui segments m-margin-top-large">
+                        <div class="ui secondary segment ">
+                            <i class="bookmark icon"></i>最新推荐
+                        </div>
+                        <div class="ui segment" th:each="recommend: ${recommendBlogs}">
+                            <a href="#" th:href="@{/blog/{id}(id=${recommend.id})}" target="_blank" class="m-black m-text-thin" th:text="${recommend.title}">
+                                用户故事（User Story）
+                            </a>
+                        </div>
+                        <!--/*-->
+                        <div class="ui segment" >
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+                        </div>
+                        <!--*/-->
+                    </div>
+            
+                    <!--二维码-->
+                    <h4 class="ui horizontal divider header m-margin-top-large">扫码关注我</h4>
+                    <div class="ui centered card" style="width: 11em">
+                    <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded image" >
+                    </div>
+                </div>
+            </div>   
+        </div>
+        
+    </div>
+
+    <!-- 底部 -->
+    <footer th:replace="_fragments :: footer" class="ui inverted blue vertical segment my-padded-tb-massive">
+        <div class="ui center aligned container">
+            <!-- 总共16份的布局 -->
+            <div class="ui inverted divided stackable grid">
+                <div class="four wide column">
+                    <div class="ui inverted link list">
+                        <div class="item">
+                            <img src="../static/images/wechat.jpg" class="ui rounded image" style="width: 110px">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header my-text-spaced">最新博客</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">用户故事</a>
+                        <a href="#" class="item">用户故事</a>
+                        <a href="#" class="item">用户故事</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header my-text-spaced">联系我</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: wzzfarewell@163.com</a>
+                        <a href="#" class="item">QQ: 364134875</a>
+                    </div>
+                </div>
+                <div class="six wide column">
+                    <h4 class="ui inverted header my-text-spaced">Blog</h4>
+                    <p class="my-opacity-mini">这是farewell的个人博客，处于兴趣使然的作品。。。</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="my-opacity-mini">Copyright © 2019 Designed by farewell</p>
+        </div>
+    </footer>
+
+
+    <!--/*/<th:block th:replace="_fragments :: script">/*/-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <!--/*/</th:block>/*/-->
+<script>
+    $('.menu.toggle').click(function(){
+        $('.m-item ').toggleClass('my-mobile-hidden');
+    });
+</script>
+</body>
+</html>

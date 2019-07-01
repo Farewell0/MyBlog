@@ -1,0 +1,23 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    servlet:
+      content-type: text/html
+    suffix: .html
+    # 一项是禁用缓存来获取实时页面数据，一项是非严格的HTML检查，其他采用默认项即可
+    cache: false
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+comment.avatar: /images/commentAvatar.png
+
+my-props:
+ passwordSalt: farewellhfiuhdiufgiu8237481732.,hdhuf;
+ commentAvatar: /images/commentAvatar.png
+ typeBlogCount: 6
+ tagBlogCount: 10
+ recommendBlogCount: 8

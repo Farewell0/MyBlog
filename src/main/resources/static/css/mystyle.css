@@ -1,0 +1,154 @@
+body {
+    background: url("../images/bg.png");
+}
+
+.my-teal{
+    color: teal !important;
+}
+/* padding */
+.my-padding-mini{
+    padding: 0.2em !important;
+}
+.my-padding-tiny{
+    padding: 0.3em !important;
+}
+.my-padding{
+    padding: 1em !important;
+}
+.my-padding-large{
+    padding: 2em !important;
+}
+
+.my-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.my-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.my-padded-tb-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.my-padded-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.my-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.my-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.my-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.my-padded-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.my-padded-lr{
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+.my-padded-lr-reponsive{
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+
+/* margin */
+.my-margin-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+/* position */
+.my-right-top{
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+.my-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+}
+.my-fixed{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+/* 文字样式 */
+.my-text{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important;
+}
+.my-text-thin{
+    font-weight: 300 !important;
+}
+.my-text-spaced{
+    letter-spacing: 2px !important;
+}
+.my-text-lined{
+    line-height: 1.8 !important;
+}
+.my-text-spaced{
+    letter-spacing: 1px !important;
+}
+.my-text-black{
+    color: #000 !important;
+}
+
+.my-inline-block{
+    display: inline-block !important;
+}
+
+.my-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.my-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+.my-mobile-show{
+    display: none !important;
+}
+
+.my-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+@media screen and (max-width: 768px){
+    .my-mobile-hidden{
+        display: none !important;
+    }
+    .my-mobile-show{
+        display: block !important;
+    }
+    .my-padded-lr-reponsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .my-mobile-wide{
+        width: 100% !important;
+    }
+    .my-mobile-lr-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+/* opacity */
+.my-opacity-mini{
+    opacity: 0.8 !important;
+}
+
+.my-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 180, 0.2) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 180, 0.2) !important;
+}

@@ -1,0 +1,299 @@
+2019-06-27 10:59:53.745  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 17196 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 10:59:53.751 DEBUG 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 10:59:53.751  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 10:59:53.796  INFO 17196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-27 10:59:53.797  INFO 17196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-27 10:59:54.392  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 10:59:54.472  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 4 repository interfaces.
+2019-06-27 10:59:54.754  INFO 17196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a9a4681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 10:59:55.165  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 10:59:55.182  INFO 17196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 10:59:55.182  INFO 17196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 10:59:55.187  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 10:59:55.187  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 10:59:55.187  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 10:59:55.198  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 10:59:55.335  INFO 17196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 10:59:55.335  INFO 17196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1538 ms
+2019-06-27 10:59:55.578  INFO 17196 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-27 10:59:55.690  INFO 17196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 10:59:55.742  INFO 17196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-27 10:59:55.743  INFO 17196 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-27 10:59:55.874  INFO 17196 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-27 10:59:56.039  INFO 17196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 10:59:56.720  INFO 17196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 10:59:56.775  INFO 17196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 10:59:57.076  INFO 17196 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 10:59:57.544  INFO 17196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 10:59:57.877  INFO 17196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 10:59:58.105  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 10:59:58.106  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 4.919 seconds (JVM running for 6.272)
+2019-06-27 11:00:07.486  INFO 17196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 11:00:07.486  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 11:00:07.503  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-06-27 11:00:07.535  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 11:00:07.620  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 11:00:07.634  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 11:00:07.643  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 11:01:27.895  INFO 17196 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 11:01:27.921  INFO 17196 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 11:26:54.639  INFO 17196 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-27 11:26:54.641  INFO 17196 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 11:26:54.652  INFO 17196 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-27 11:26:55.551  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 17196 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 11:26:55.551 DEBUG 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 11:26:55.551  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 11:26:55.846  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 11:26:55.873  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 4 repository interfaces.
+2019-06-27 11:26:55.926  INFO 17196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a9a4681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 11:26:56.088  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 11:26:56.089  INFO 17196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 11:26:56.089  INFO 17196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 11:26:56.089  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 11:26:56.089  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 11:26:56.089  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 11:26:56.090  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 11:26:56.126  INFO 17196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 11:26:56.126  INFO 17196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 571 ms
+2019-06-27 11:26:56.236  INFO 17196 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2019-06-27 11:26:56.248  INFO 17196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 11:26:56.281  INFO 17196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 11:26:56.433  INFO 17196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 11:26:56.461  INFO 17196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 11:26:56.595  INFO 17196 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 11:26:56.953  INFO 17196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 11:26:57.077  INFO 17196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 11:26:57.581  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 11:26:57.581  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 2.086 seconds (JVM running for 1625.747)
+2019-06-27 11:26:57.585  INFO 17196 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-27 11:27:07.946  INFO 17196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 11:27:07.947  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 11:27:07.955  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-27 11:27:07.960  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 11:27:07.978  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 11:27:07.983  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 11:27:07.996  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 11:27:26.273  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 11:27:26.292  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 11:27:33.304  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Spring]}
+2019-06-27 11:27:33.316  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:28:22.766  INFO 17196 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Spring]}
+2019-06-27 11:28:22.771  INFO 17196 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:28:30.867  INFO 17196 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Mar]}
+2019-06-27 11:28:30.874  INFO 17196 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:28:44.218  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Markdown]}
+2019-06-27 11:28:44.224  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:29:03.304  INFO 17196 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Markdown文本]}
+2019-06-27 11:29:03.310  INFO 17196 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:29:35.912  INFO 17196 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, Markdown文本]}
+2019-06-27 11:29:35.920  INFO 17196 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: search
+2019-06-27 11:29:37.068  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 11:29:37.081  INFO 17196 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 16:03:17.371  INFO 17196 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:03:17.371  INFO 17196 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:03:17.372  INFO 17196 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2019-06-27 16:03:17.940  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 17196 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 16:03:17.940 DEBUG 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 16:03:17.941  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 16:03:18.145  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 16:03:18.173  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 4 repository interfaces.
+2019-06-27 16:03:18.229  INFO 17196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a9a4681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 16:03:18.431  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 16:03:18.432  INFO 17196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 16:03:18.432  INFO 17196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 16:03:18.433  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 16:03:18.433  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 16:03:18.433  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 16:03:18.433  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 16:03:18.470  INFO 17196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 16:03:18.470  INFO 17196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 526 ms
+2019-06-27 16:03:18.592  INFO 17196 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2019-06-27 16:03:18.605  INFO 17196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 16:03:18.638  INFO 17196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 16:03:18.792  INFO 17196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:03:18.822  INFO 17196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 16:03:18.914  INFO 17196 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 16:03:19.202  INFO 17196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:03:19.286  INFO 17196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 16:03:19.442  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 16:03:19.442  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.535 seconds (JVM running for 18207.608)
+2019-06-27 16:03:19.444  INFO 17196 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-27 16:03:48.687  INFO 17196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 16:03:48.688  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 16:03:48.704  INFO 17196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-06-27 16:03:48.707  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 16:03:48.726  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 16:03:48.735  WARN 17196 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 16:03:48.743  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 16:03:50.309  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:03:50.332  INFO 17196 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:05:03.154  INFO 17196 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:05:03.155  INFO 17196 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:05:03.156  INFO 17196 --- [Thread-30] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2019-06-27 16:05:03.981  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 17196 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 16:05:03.981 DEBUG 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 16:05:03.981  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 16:05:04.221  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 16:05:04.253  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 4 repository interfaces.
+2019-06-27 16:05:04.324  INFO 17196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a9a4681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 16:05:04.601  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 16:05:04.602  INFO 17196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 16:05:04.602  INFO 17196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 16:05:04.603  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 16:05:04.603  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 16:05:04.603  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 16:05:04.603  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 16:05:04.640  INFO 17196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 16:05:04.640  INFO 17196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 657 ms
+2019-06-27 16:05:04.784  INFO 17196 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2019-06-27 16:05:04.798  INFO 17196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 16:05:04.835  INFO 17196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 16:05:04.981  INFO 17196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:05:05.014  INFO 17196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 16:05:05.157  INFO 17196 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 16:05:05.512  INFO 17196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:05:05.652  INFO 17196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 16:05:06.007  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 16:05:06.007  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 2.065 seconds (JVM running for 18314.173)
+2019-06-27 16:05:06.012  INFO 17196 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-27 16:05:14.392  INFO 17196 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 16:05:14.393  INFO 17196 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 16:05:14.405  INFO 17196 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-06-27 16:05:14.410  INFO 17196 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:05:14.418  INFO 17196 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:05:37.192  INFO 17196 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:05:37.194  INFO 17196 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:18:08.384  INFO 17196 --- [Thread-36] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:18:08.384  INFO 17196 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:18:08.386  INFO 17196 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2019-06-27 16:18:09.082  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 17196 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 16:18:09.083 DEBUG 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 16:18:09.083  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 16:18:09.362  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 16:18:09.420  INFO 17196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 4 repository interfaces.
+2019-06-27 16:18:09.504  INFO 17196 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a9a4681] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 16:18:09.665  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 16:18:09.666  INFO 17196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 16:18:09.694  INFO 17196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 16:18:09.694  INFO 17196 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 609 ms
+2019-06-27 16:18:09.807  INFO 17196 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2019-06-27 16:18:09.819  INFO 17196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 16:18:09.859  INFO 17196 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 16:18:10.035  INFO 17196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:18:10.078  INFO 17196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 16:18:10.198  INFO 17196 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 16:18:11.009  INFO 17196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:18:11.225  INFO 17196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 16:18:11.378  INFO 17196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 16:18:11.378  INFO 17196 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 2.346 seconds (JVM running for 19099.544)
+2019-06-27 16:18:11.380  INFO 17196 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-27 16:27:44.881  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 10276 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 16:27:44.882 DEBUG 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 16:27:44.882  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 16:27:44.909  INFO 10276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-27 16:27:44.909  INFO 10276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-27 16:27:45.366  INFO 10276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 16:27:45.422  INFO 10276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 4 repository interfaces.
+2019-06-27 16:27:45.666  INFO 10276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb0cce5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 16:27:46.055  INFO 10276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 16:27:46.070  INFO 10276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 16:27:46.070  INFO 10276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 16:27:46.074  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 16:27:46.075  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 16:27:46.075  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 16:27:46.079  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 16:27:46.226  INFO 10276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 16:27:46.226  INFO 10276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1317 ms
+2019-06-27 16:27:46.453  INFO 10276 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-27 16:27:46.553  INFO 10276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 16:27:46.594  INFO 10276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-27 16:27:46.595  INFO 10276 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-27 16:27:46.685  INFO 10276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-27 16:27:46.843  INFO 10276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 16:27:47.525  INFO 10276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:27:47.590  INFO 10276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 16:27:47.886  INFO 10276 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 16:27:48.337  INFO 10276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:27:48.632  INFO 10276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 16:27:48.831  INFO 10276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 16:27:48.832  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 4.448 seconds (JVM running for 5.507)
+2019-06-27 16:28:16.950  INFO 10276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 16:28:16.950  INFO 10276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 16:28:16.960  INFO 10276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-27 16:28:16.986  INFO 10276 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-06-27 16:28:17.069  WARN 10276 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 16:28:17.087  WARN 10276 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-06-27 16:28:17.101  INFO 10276 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-06-27 16:28:20.617  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:28:20.672  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:29:39.925  INFO 10276 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:29:39.945  INFO 10276 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:31:37.822  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:31:37.837  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:31:40.908  INFO 10276 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:31:40.920  INFO 10276 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:36:06.348  INFO 10276 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:36:06.349  INFO 10276 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:36:06.357  INFO 10276 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-27 16:36:06.981  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 10276 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-06-27 16:36:06.982 DEBUG 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-27 16:36:06.982  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-06-27 16:36:07.179  INFO 10276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-27 16:36:07.203  INFO 10276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 4 repository interfaces.
+2019-06-27 16:36:07.239  INFO 10276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb0cce5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-27 16:36:07.381  INFO 10276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 16:36:07.383  INFO 10276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-27 16:36:07.383  INFO 10276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-27 16:36:07.384  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-06-27 16:36:07.384  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-27 16:36:07.384  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-27 16:36:07.384  INFO 10276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-06-27 16:36:07.410  INFO 10276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-27 16:36:07.410  INFO 10276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 427 ms
+2019-06-27 16:36:07.510  INFO 10276 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2019-06-27 16:36:07.523  INFO 10276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-27 16:36:07.561  INFO 10276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-27 16:36:07.699  INFO 10276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-27 16:36:07.726  INFO 10276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-27 16:36:07.807  INFO 10276 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-27 16:36:08.182  INFO 10276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-27 16:36:08.273  INFO 10276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-27 16:36:08.441  INFO 10276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-27 16:36:08.442  INFO 10276 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.491 seconds (JVM running for 505.117)
+2019-06-27 16:36:08.443  INFO 10276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-27 16:36:22.936  INFO 10276 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-27 16:36:22.937  INFO 10276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-27 16:36:22.950  INFO 10276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-06-27 16:36:22.954  INFO 10276 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:36:22.972  INFO 10276 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:36:28.816  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[15, {}]}
+2019-06-27 16:36:28.824  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:36:37.541  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[17, {}]}
+2019-06-27 16:36:37.554  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:43:34.885  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[17, {}]}
+2019-06-27 16:43:34.897  INFO 10276 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:43:43.837  INFO 10276 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[17, {}]}
+2019-06-27 16:43:43.845  INFO 10276 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:49:45.674  INFO 10276 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[17, {}]}
+2019-06-27 16:49:45.689  INFO 10276 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-06-27 16:50:08.704  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/17', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[17, {}]}
+2019-06-27 16:50:08.715  INFO 10276 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog

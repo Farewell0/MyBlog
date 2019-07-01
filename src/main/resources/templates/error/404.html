@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+  <link rel="stylesheet" href="../../static/css/mystyle.css" >
+</head>
+<body>
+
+<!--导航-->
+<nav th:replace="_fragments :: menu(0)" class="ui inverted attached segment my-padded-tb-mini" >
+  <div class="ui container">
+    <div class="ui inverted secondary stackable menu">
+      <h2 class="ui teal header item">Blog</h2>
+      <a href="#" class="active m-item item my-mobile-hidden"><i class="home icon"></i>首页</a>
+      <a href="#" class="m-item item my-mobile-hidden"><i class="idea icon"></i>分类</a>
+      <a href="#" class="m-item item my-mobile-hidden"><i class="tags icon"></i>标签</a>
+      <a href="#" class="m-item item my-mobile-hidden"><i class="clone icon"></i>归档</a>
+      <a href="#" class="m-item item my-mobile-hidden"><i class="paper plane icon"></i>关于我</a>
+      <div class="m-item right item my-mobile-hidden">
+        <div class="ui icon input">
+          <input type="text" placeholder="Search...">
+          <i class="search link icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui menu toggle black icon button my-right-top my-mobile-show">
+    <i class="sidebar icon"></i>
+  </a>
+</nav>
+
+<br>
+<br>
+<br>
+
+  <div class="my-container-small my-padded-tb-massive">
+    <div class="ui error message my-padded-tb-huge" >
+      <div class="ui container">
+        <h2>404</h2>
+        <p>对不起，你访问的资源不存在</p>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment my-padded-tb-massive">
+  <div class="ui center aligned container">
+    <!-- 总共16份的布局 -->
+    <div class="ui inverted divided stackable grid my-text-spaced my-text-lined">
+      <div class="four wide column">
+        <div class="ui inverted link list">
+          <div class="item">
+            <img src="../../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui rounded image" style="width: 150px">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">用户故事</a>
+          <a href="#" class="item">用户故事</a>
+          <a href="#" class="item">用户故事</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">联系我</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">Email: wzzfarewell@163.com</a>
+          <a href="#" class="item">QQ: 364134875</a>
+        </div>
+      </div>
+      <div class="six wide column">
+        <h4 class="ui inverted header">Blog</h4>
+        <p class="my-opacity-mini">这是farewell的个人博客，处于兴趣使然的作品。。。</p>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="my-opacity-mini">Copyright © 2019 Designed by farewell</p>
+  </div>
+
+</footer>
+</body>
+</html>
