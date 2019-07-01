@@ -57,4 +57,11 @@ public interface BlogRepository extends JpaRepository<Blog, Long>, JpaSpecificat
      */
     @Query("select b from Blog b where function('date_format', b.updateTime, '%Y') = ?1")
     List<Blog> findByYear(String year);
+
+    /**
+     * 返回已发布的所有博客数量
+     * @return
+     */
+    @Query("select count(b) from Blog b where b.published = 1")
+    Long countPublishedBlogs();
 }
