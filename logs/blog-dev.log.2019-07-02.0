@@ -1,0 +1,527 @@
+2019-07-02 08:12:52.625  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 1212 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 08:12:52.629 DEBUG 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 08:12:52.629  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-07-02 08:12:52.664  INFO 1212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-02 08:12:52.665  INFO 1212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-02 08:12:54.829  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 08:12:54.971  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128ms. Found 5 repository interfaces.
+2019-07-02 08:12:55.517  INFO 1212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65661e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 08:12:56.378  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 08:12:56.412  INFO 1212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 08:12:56.412  INFO 1212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 08:12:56.423  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-02 08:12:56.424  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-02 08:12:56.424  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-02 08:12:56.444  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-02 08:12:56.750  INFO 1212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 08:12:56.751  INFO 1212 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4086 ms
+2019-07-02 08:12:57.288  INFO 1212 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-02 08:12:57.522  INFO 1212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 08:12:57.642  INFO 1212 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-02 08:12:57.650  INFO 1212 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-02 08:12:58.672  INFO 1212 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-02 08:13:00.563  INFO 1212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 08:13:02.246  INFO 1212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:13:02.351  INFO 1212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-02 08:13:02.939  INFO 1212 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 08:13:04.031  INFO 1212 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:13:04.625  INFO 1212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 08:13:04.989  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 08:13:04.991  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 12.882 seconds (JVM running for 14.305)
+2019-07-02 08:13:14.365  INFO 1212 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-02 08:13:14.366  INFO 1212 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-02 08:13:14.382  INFO 1212 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-07-02 08:13:15.079  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:15.184  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:16.637  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.ArchivesShowController.archives', args=[{}]}
+2019-07-02 08:13:16.680  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: archives
+2019-07-02 08:13:17.076  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:17.084  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:19.682  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:13:19.732  WARN 1212 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:13:19.749  WARN 1212 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:13:19.764  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:13:20.384  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:20.393  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:23.277  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/41', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[41, {}]}
+2019-07-02 08:13:23.356  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:13:23.980  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:23.991  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:24.078  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/41', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[41, {}]}
+2019-07-02 08:13:24.100  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:13:50.228  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:50.234  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:53.642  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:53.648  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:56.740  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:56.747  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:13:58.391  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:13:58.396  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:14:25.499  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:14:25.505  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:14:28.326  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:14:28.331  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:14:31.526  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:14:31.532  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:16:09.800  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:16:09.805  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:16:12.415  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:16:12.420  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:16:15.871  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:16:15.877  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:16:21.678  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:16:21.683  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:24:21.424  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:24:21.430  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:24:31.057  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:24:31.079  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:24:31.515  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:24:31.519  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:24:40.735  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[44, {}]}
+2019-07-02 08:24:40.743  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:24:41.144  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:24:41.149  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:24:41.240  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[44, {}]}
+2019-07-02 08:24:41.243  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:24:56.022  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[44, {}]}
+2019-07-02 08:24:56.029  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:24:56.526  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:24:56.531  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:24:56.615  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[44, {}]}
+2019-07-02 08:24:56.617  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:25:56.460  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:25:56.466  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:25:58.406  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:25:58.409  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:27:02.639  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:27:02.643  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:27:08.688  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[44, {}]}
+2019-07-02 08:27:08.696  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:27:09.107  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:27:09.113  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:27:09.201  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[44, {}]}
+2019-07-02 08:27:09.203  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:27:21.039  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:27:21.061  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:27:21.553  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:27:21.560  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:29:27.903  INFO 1212 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:29:27.904  INFO 1212 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:29:27.936  INFO 1212 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-07-02 08:29:28.570  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 1212 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 08:29:28.570 DEBUG 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 08:29:28.570  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-07-02 08:29:28.797  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 08:29:28.832  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 5 repository interfaces.
+2019-07-02 08:29:28.896  INFO 1212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65661e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 08:29:29.088  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-02 08:29:29.090  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-02 08:29:29.121  INFO 1212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 08:29:29.121  INFO 1212 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 549 ms
+2019-07-02 08:29:29.232  INFO 1212 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2019-07-02 08:29:29.245  INFO 1212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 08:29:29.279  INFO 1212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 08:29:29.414  INFO 1212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:29:29.443  INFO 1212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-02 08:29:29.535  INFO 1212 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 08:29:29.833  INFO 1212 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:29:29.905  INFO 1212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 08:29:30.060  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 08:29:30.061  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.518 seconds (JVM running for 999.374)
+2019-07-02 08:29:30.063  INFO 1212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-02 08:29:34.069  INFO 1212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-02 08:29:34.071  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-02 08:29:34.089  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-07-02 08:29:34.094  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:29:34.117  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:29:34.124  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:29:34.132  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:29:34.583  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:29:34.586  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:29:36.113  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[44, {}]}
+2019-07-02 08:29:36.128  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:29:36.626  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:29:36.632  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:29:36.704  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[44, {}]}
+2019-07-02 08:29:36.722  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:29:40.509  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/42', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[42, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:29:40.546  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:29:40.980  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:29:40.984  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:29:47.451  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/43', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[43, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:29:47.462  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:29:47.810  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:29:47.813  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:29:57.283  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/13', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[13, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:29:57.295  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:29:57.671  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:29:57.674  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:30:07.837  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/42', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[42, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:30:07.847  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:30:08.204  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:30:08.207  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:30:09.582  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/43', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[43, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:30:09.591  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:30:09.971  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:30:09.974  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:30:17.967  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/tags/43', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TagsShowController.tags', args=[43, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:30:17.974  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: tags
+2019-07-02 08:30:18.348  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:30:18.351  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:30:27.968  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[44, {}]}
+2019-07-02 08:30:27.974  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 08:30:29.071  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:30:29.076  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:30:29.191  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/44', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[44, {}]}
+2019-07-02 08:30:29.194  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 08:30:45.367  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:30:45.387  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:30:45.851  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:30:45.854  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:32:45.597  INFO 1212 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:32:45.597  INFO 1212 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:32:45.599  INFO 1212 --- [Thread-39] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2019-07-02 08:32:46.362  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 1212 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 08:32:46.362 DEBUG 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 08:32:46.362  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-07-02 08:32:46.552  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 08:32:46.572  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 5 repository interfaces.
+2019-07-02 08:32:46.621  INFO 1212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65661e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 08:32:46.797  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 08:32:46.798  INFO 1212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 08:32:46.798  INFO 1212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 08:32:46.799  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-02 08:32:46.799  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-02 08:32:46.799  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-02 08:32:46.799  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-02 08:32:46.823  INFO 1212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 08:32:46.824  INFO 1212 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 460 ms
+2019-07-02 08:32:46.915  INFO 1212 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2019-07-02 08:32:46.927  INFO 1212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 08:32:46.959  INFO 1212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 08:32:47.083  INFO 1212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:32:47.110  INFO 1212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-02 08:32:47.192  INFO 1212 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 08:32:47.598  INFO 1212 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:32:47.700  INFO 1212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 08:32:48.155  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 08:32:48.155  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.828 seconds (JVM running for 1197.469)
+2019-07-02 08:32:48.157  INFO 1212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-02 08:32:48.911  INFO 1212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-02 08:32:48.913  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-02 08:32:48.928  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-07-02 08:32:48.934  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:32:48.967  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:32:48.977  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:32:48.987  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:32:49.480  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:32:49.483  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:32:50.727 ERROR 1212 --- [http-nio-8080-exec-7] c.w.b.h.ControllerExceptionHandler       : Request Url: http://localhost:8080/types/blog.type.id, Exception: {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "blog.type.id"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "blog.type.id"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 51 common frames omitted
+
+2019-07-02 08:32:50.732  WARN 1212 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "blog.type.id"]
+2019-07-02 08:33:26.882  INFO 1212 --- [Thread-45] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:33:26.884  INFO 1212 --- [Thread-45] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:33:26.885  INFO 1212 --- [Thread-45] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2019-07-02 08:33:27.615  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 1212 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 08:33:27.615 DEBUG 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 08:33:27.615  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-07-02 08:33:27.835  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 08:33:27.861  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 5 repository interfaces.
+2019-07-02 08:33:27.917  INFO 1212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65661e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 08:33:28.138  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 08:33:28.140  INFO 1212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 08:33:28.140  INFO 1212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 08:33:28.141  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-02 08:33:28.142  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-02 08:33:28.142  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-02 08:33:28.142  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-02 08:33:28.167  INFO 1212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 08:33:28.167  INFO 1212 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 548 ms
+2019-07-02 08:33:28.285  INFO 1212 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2019-07-02 08:33:28.298  INFO 1212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 08:33:28.333  INFO 1212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 08:33:28.476  INFO 1212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 08:33:28.515  INFO 1212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-02 08:33:28.614  INFO 1212 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 08:33:29.044  INFO 1212 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 08:33:29.151  INFO 1212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 08:33:29.319  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 08:33:29.319  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.741 seconds (JVM running for 1238.633)
+2019-07-02 08:33:29.321  INFO 1212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-02 08:33:30.172  INFO 1212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-02 08:33:30.174  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-02 08:33:30.191  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-07-02 08:33:30.194  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 08:33:30.217  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:33:30.223  WARN 1212 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-07-02 08:33:30.229  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 08:33:30.700  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:33:30.705  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:33:35.783  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/types/5', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TypeShowController.types', args=[5, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:33:35.796  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: types
+2019-07-02 08:33:36.169  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:33:36.172  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:33:49.756  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.TypeShowController.types', args=[2, {}, Page request [number: 0, size 8, sort: updateTime: DESC]]}
+2019-07-02 08:33:49.764  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: types
+2019-07-02 08:33:50.173  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:33:50.177  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:35:03.356  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:35:03.360  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:35:12.259  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:35:12.263  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:35:14.708  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:35:14.712  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:40:03.812  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:40:03.817  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:40:42.120  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:40:42.124  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:41:10.185  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:41:10.188  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:41:15.750  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:41:15.753  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 08:44:53.360  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 08:44:53.363  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:02:00.590  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:02:00.618  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:02:01.205  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:02:01.208  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:02:02.413  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:02:02.416  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:02:14.702  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:02:14.717  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:02:15.128  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:02:15.131  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:22.315  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:22.317  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:28.017  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:14:28.030  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:14:28.398  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:28.401  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:29.911  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[46, {}]}
+2019-07-02 09:14:29.923  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:14:30.316  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:30.320  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:30.486  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[46, {}]}
+2019-07-02 09:14:30.501  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:14:50.747  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:50.750  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:54.723  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:54.725  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:57.030  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[46, {}]}
+2019-07-02 09:14:57.036  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:14:57.450  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:14:57.452  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:14:57.608  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[46, {}]}
+2019-07-02 09:14:57.610  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:15:49.152  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:15:49.155  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:17:33.747  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[46, {}]}
+2019-07-02 09:17:33.758  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:17:34.137  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:17:34.144  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:17:34.315  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/46', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[46, {}]}
+2019-07-02 09:17:34.316  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:26:15.641  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:26:15.643  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:26:23.619  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:26:23.636  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:26:24.063  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:26:24.069  INFO 1212 --- [http-nio-8080-exec-4] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:26:24.660  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/47', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[47, {}]}
+2019-07-02 09:26:24.664  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:26:25.074  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:26:25.077  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:26:25.342  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/47', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[47, {}]}
+2019-07-02 09:26:25.344  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:26:28.531  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/47', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[47, {}]}
+2019-07-02 09:26:28.537  INFO 1212 --- [http-nio-8080-exec-9] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:26:28.995  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:26:29.001  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:26:29.276  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/47', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[47, {}]}
+2019-07-02 09:26:29.279  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:27:46.767  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:27:46.771  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:37:23.347  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:37:23.350  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:37:25.447  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:37:25.459  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:37:25.824  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:37:25.826  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:37:26.896  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/48', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[48, {}]}
+2019-07-02 09:37:26.900  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:37:27.294  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:37:27.297  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:37:27.364  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/48', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[48, {}]}
+2019-07-02 09:37:27.369  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:38:00.280  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:38:00.284  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:38:10.033  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:38:10.036  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:38:12.187  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/48', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[48, {}]}
+2019-07-02 09:38:12.190  INFO 1212 --- [http-nio-8080-exec-1] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:38:12.569  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:38:12.572  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:38:12.643  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/48', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[48, {}]}
+2019-07-02 09:38:12.648  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:40:21.066  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/41', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[41, {}]}
+2019-07-02 09:40:21.078  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:40:21.478  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:40:21.480  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:40:21.558  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/41', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[41, {}]}
+2019-07-02 09:40:21.561  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:42:00.734  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:42:00.737  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:46:53.397  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:46:53.400  INFO 1212 --- [http-nio-8080-exec-8] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:46:55.177  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-07-02 09:46:55.192  INFO 1212 --- [http-nio-8080-exec-10] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: index
+2019-07-02 09:46:55.605  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:46:55.612  INFO 1212 --- [http-nio-8080-exec-7] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:47:08.791  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/blog/49', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.blog', args=[49, {}]}
+2019-07-02 09:47:08.794  INFO 1212 --- [http-nio-8080-exec-5] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog
+2019-07-02 09:47:09.196  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:47:09.199  INFO 1212 --- [http-nio-8080-exec-3] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:47:09.262  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/comments/49', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.CommentController.comments', args=[49, {}]}
+2019-07-02 09:47:09.264  INFO 1212 --- [http-nio-8080-exec-6] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: blog::commentList
+2019-07-02 09:48:19.131  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : Request: RequestLog{url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wzz.blog.controller.IndexController.newblogs', args=[{}]}
+2019-07-02 09:48:19.134  INFO 1212 --- [http-nio-8080-exec-2] com.wzz.blog.aspect.LogAspect            : ------------ReturningResult: _fragments :: newblogList
+2019-07-02 09:58:08.012  INFO 1212 --- [Thread-51] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 09:58:08.013  INFO 1212 --- [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 09:58:08.014  INFO 1212 --- [Thread-51] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2019-07-02 09:58:08.875  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Starting BlogApplication on LAPTOP-BDQVK2LS with PID 1212 (D:\WorkSpaces\IDEA_Project\blog\target\classes started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 09:58:08.875 DEBUG 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 09:58:08.875  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : The following profiles are active: dev
+2019-07-02 09:58:09.135  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 09:58:09.161  INFO 1212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 5 repository interfaces.
+2019-07-02 09:58:09.216  INFO 1212 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65661e93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 09:58:09.430  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 09:58:09.431  INFO 1212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 09:58:09.431  INFO 1212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 09:58:09.432  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-02 09:58:09.432  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-02 09:58:09.432  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-02 09:58:09.432  INFO 1212 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-02 09:58:09.465  INFO 1212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 09:58:09.466  INFO 1212 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 589 ms
+2019-07-02 09:58:09.611  INFO 1212 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2019-07-02 09:58:09.626  INFO 1212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 09:58:09.677  INFO 1212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 09:58:09.809  INFO 1212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 09:58:09.843  INFO 1212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-02 09:58:09.937  INFO 1212 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 09:58:10.216  INFO 1212 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 09:58:10.284  INFO 1212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 09:58:10.416  INFO 1212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 09:58:10.416  INFO 1212 --- [restartedMain] com.wzz.blog.BlogApplication             : Started BlogApplication in 1.579 seconds (JVM running for 6319.73)
+2019-07-02 09:58:10.418  INFO 1212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-02 09:58:16.599  INFO 19896 --- [main] com.wzz.blog.BlogApplicationTests        : Starting BlogApplicationTests on LAPTOP-BDQVK2LS with PID 19896 (started by wzzap in D:\WorkSpaces\IDEA_Project\blog)
+2019-07-02 09:58:16.600 DEBUG 19896 --- [main] com.wzz.blog.BlogApplicationTests        : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-02 09:58:16.600  INFO 19896 --- [main] com.wzz.blog.BlogApplicationTests        : The following profiles are active: dev
+2019-07-02 09:58:17.235  INFO 19896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 09:58:17.311  INFO 19896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 5 repository interfaces.
+2019-07-02 09:58:17.628  INFO 19896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81efee7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 09:58:18.119  INFO 19896 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-02 09:58:18.293  INFO 19896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 09:58:18.341  INFO 19896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-02 09:58:18.343  INFO 19896 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-02 09:58:18.458  INFO 19896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-02 09:58:18.924  INFO 19896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-02 09:58:19.612  INFO 19896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 09:58:20.050  INFO 19896 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-02 09:58:21.274  INFO 19896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 09:58:21.539  INFO 19896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 09:58:21.850  INFO 19896 --- [main] com.wzz.blog.BlogApplicationTests        : Started BlogApplicationTests in 5.683 seconds (JVM running for 6.354)
+2019-07-02 09:58:21.911  INFO 19896 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wzz.blog.Test], using SpringBootContextLoader
+2019-07-02 09:58:21.912  INFO 19896 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.wzz.blog.Test]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-07-02 09:58:21.912  INFO 19896 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.wzz.blog.Test]: Test does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-07-02 09:58:21.913  INFO 19896 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.wzz.blog.BlogApplication for test class com.wzz.blog.Test
+2019-07-02 09:58:21.915  INFO 19896 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-07-02 09:58:21.916  INFO 19896 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@408f70ab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5383bf08, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2586e878, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7b7cf475, org.springframework.test.context.support.DirtiesContextTestExecutionListener@404dc999, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ef85567, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c2fb9e8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ec3944, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2e4339c1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@62dc1203, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35d0749, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@621a387f]
+2019-07-02 09:58:22.081  INFO 19896 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 09:58:22.084  INFO 19896 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 09:58:22.096  INFO 19896 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

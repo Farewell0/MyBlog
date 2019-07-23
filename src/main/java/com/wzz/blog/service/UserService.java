@@ -9,8 +9,8 @@ import com.wzz.blog.pojo.User;
 public interface UserService {
     /**
      * 检测输入的用户名和密码是否存在
-     * @param username
-     * @param password
+     * @param username 用户名
+     * @param password 密码
      * @return
      */
     User checkUser(String username, String password);
